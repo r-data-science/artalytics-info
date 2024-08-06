@@ -1,0 +1,44 @@
+Package: artutils
+Title: Artalytics Toolkit
+Version: 0.1.7
+Authors@R: 
+    person(given = "Bobby",
+           family = "Fatemi",
+           role = c("aut", "cre"),
+           email = "bfatemi07@gmail.com")
+Description: Package containing tools and data shared across the modules of the Artalytics Shiny app.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+URL: https://github.com/r-data-science/artutils
+BugReports: https://github.com/r-data-science/artutils/issues
+Config/testthat/edition: 3
+Imports:
+  artopenai,
+  data.table,
+  DBI,
+  fresh,
+  fs,
+  jsonlite,
+  lubridate,
+  magick,
+  rdstools,
+  rlang,
+  rpgconn,
+  shiny,
+  stats,
+  stringr,
+  tidyjson,
+  uuid,
+  waiter,
+  zip
+Remotes:
+  github::r-data-science/artopenai,
+  github::r-data-science/rdstools,
+  github::r-data-science/rpgconn
+Depends: 
+  R (>= 4.0)
+Suggests:
+  covr,
+  testthat (>= 3.0.0)
