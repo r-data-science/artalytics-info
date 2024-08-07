@@ -1,6 +1,5 @@
 # Artalytics Platform Packages
 
-+----------+----------+----------+----------+----------+----------+
 | Package  | Latest   | Coverage | Build    | Coverage | Lint     |
 |          |          | %        | Check    | Test     |          |
 +==========+==========+==========+==========+==========+==========+
