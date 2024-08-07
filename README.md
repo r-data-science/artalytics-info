@@ -48,3 +48,13 @@ version](https://img.shields.io/github/r-package/v/r-data-science/artalytics-inf
 [![codecov](https://codecov.io/gh/r-data-science/pixelsense/branch/main/graph/badge.svg?token=n3oeGuWlIl)](https://codecov.io/gh/r-data-science/pixelsense)
 [![R-CMD-check](https://github.com/r-data-science/pixelsense/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/r-data-science/pixelsense/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/r-data-science/pixelsense/actions/workflows/test-coverage.yaml/badge.svg?branch=main)](https://github.com/r-data-science/pixelsense/actions/workflows/test-coverage.yaml)
+
+
+### artopensea
+
+![GitHub R package
+version](https://img.shields.io/github/r-package/v/r-data-science/artalytics-info?filename=package%2Fartopensea%2FDESCRIPTION&style=flat&color=%231c98e3)
+[![codecov](https://codecov.io/gh/r-data-science/artopensea/graph/badge.svg?token=Ad3ybw17Rs)](https://codecov.io/gh/r-data-science/artopensea)
+[![R-CMD-check](https://github.com/r-data-science/artopensea/actions/workflows/R-CMD-check.yaml/badge.svg?branch=main)](https://github.com/r-data-science/artopensea/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/r-data-science/artopensea/actions/workflows/test-coverage.yaml/badge.svg?branch=main)](https://github.com/r-data-science/artopensea/actions/workflows/test-coverage.yaml)
+[![lint](https://github.com/r-data-science/artopensea/actions/workflows/lint.yaml/badge.svg?branch=main)](https://github.com/r-data-science/artopensea/actions/workflows/lint.yaml)
