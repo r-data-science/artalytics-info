@@ -41,7 +41,7 @@ version](https://img.shields.io/github/r-package/v/r-data-science/artalytics-inf
 [![lint](https://github.com/r-data-science/artopenai/actions/workflows/lint.yaml/badge.svg?branch=main)](https://github.com/r-data-science/artopenai/actions/workflows/lint.yaml)
 
 
-### Pixelsense
+### pixelsense
 
 ![GitHub R package
 version](https://img.shields.io/github/r-package/v/r-data-science/artalytics-info?filename=package%2Fpixelsense%2FDESCRIPTION&style=flat&color=%231c98e3)
