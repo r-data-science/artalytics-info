@@ -35,10 +35,10 @@ version](https://img.shields.io/github/r-package/v/r-data-science/artalytics-inf
 
 ![GitHub R package
 version](https://img.shields.io/github/r-package/v/r-data-science/artalytics-info?filename=package%2Fartopenai%2FDESCRIPTION&style=flat&color=%231c98e3)
+[![codecov](https://codecov.io/gh/r-data-science/artopenai/branch/main/graph/badge.svg?token=xavgRoo6kk)](https://codecov.io/gh/r-data-science/artopenai)
 [![R-CMD-check](https://github.com/r-data-science/artopenai/actions/workflows/R-CMD-check.yaml/badge.svg?branch=main)](https://github.com/r-data-science/artopenai/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/r-data-science/artopenai/actions/workflows/test-coverage.yaml/badge.svg?branch=main)](https://github.com/r-data-science/artopenai/actions/workflows/test-coverage.yaml)
 [![lint](https://github.com/r-data-science/artopenai/actions/workflows/lint.yaml/badge.svg?branch=main)](https://github.com/r-data-science/artopenai/actions/workflows/lint.yaml)
-[![codecov](https://codecov.io/gh/r-data-science/artopenai/branch/main/graph/badge.svg?token=xavgRoo6kk)](https://codecov.io/gh/r-data-science/artopenai)
 
 
 ### Pixelsense
