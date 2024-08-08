@@ -1,6 +1,6 @@
 Package: artutils
 Title: Artalytics Toolkit
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
@@ -10,11 +10,13 @@ Description: Package containing tools and data shared across the modules of the 
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 URL: https://github.com/r-data-science/artutils
 BugReports: https://github.com/r-data-science/artutils/issues
 Config/testthat/edition: 3
 Imports:
+  rdstools,
+  rpgconn,
   artopenai,
   data.table,
   DBI,
@@ -23,9 +25,7 @@ Imports:
   jsonlite,
   lubridate,
   magick,
-  rdstools,
   rlang,
-  rpgconn,
   shiny,
   stats,
   stringr,
@@ -34,9 +34,10 @@ Imports:
   waiter,
   zip
 Remotes:
-  github::r-data-science/artopenai,
+  github::JohnCoene/waiter,
   github::r-data-science/rdstools,
-  github::r-data-science/rpgconn
+  github::r-data-science/rpgconn,
+  github::r-data-science/artopenai
 Depends: 
   R (>= 4.0)
 Suggests:
