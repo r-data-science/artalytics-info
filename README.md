@@ -1,4 +1,6 @@
-![R-CMD-check](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/r-data-science/artalytics-info/main/R-CMD-check-badge.json)
+    ![R-CMD-check](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/r-data-science/artalytics-info/main/R-CMD-check-badge.json)
+    ![test-coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/r-data-science/artalytics-info/main/test-coverage-badge.json)
+    ![lint](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/r-data-science/artalytics-info/main/lint-badge.json)
 
 # Artalytics Platform Packages
 | Package     | Version                                                                                                                       | Coverage %                                                                                                   | R Check                                                                                                                 | Coverage Test                                                                                                                           | Lint                                                                                                                 |
