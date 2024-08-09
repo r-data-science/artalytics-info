@@ -1,6 +1,6 @@
 Package: artbenchmark
 Title: Benchmark Artworks
-Version: 0.1.8
+Version: 0.1.9
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
@@ -10,18 +10,22 @@ Description: Package containing tools for artwork valuation.
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 URL: https://github.com/r-data-science/artbenchmark
 BugReports: https://github.com/r-data-science/artbenchmark/issues
 Config/testthat/edition: 3
 Imports:
-    data.table,
-    magick,
-    stats,
-    stringr
+  data.table,
+  fs,
+  lubridate,
+  magick,
+  stats,
+  stringr,
+  artutils,
+  testthat
+Remotes:
+  github::r-data-science/artutils
 Depends: 
   R (>= 4.0)
 Suggests:
-    covr,
-    lubridate,
-    testthat (>= 3.0.0)
+  covr
