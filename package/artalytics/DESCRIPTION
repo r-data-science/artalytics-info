@@ -1,6 +1,6 @@
 Package: artalytics
 Title: Artalytics App
-Version: 0.1.1
+Version: 1.0.1
 Authors@R: 
   person(
     given = "Bobby", 
@@ -17,18 +17,21 @@ URL: https://github.com/r-data-science/artalytics
 BugReports: https://github.com/r-data-science/artalytics/issues
 Config/testthat/edition: 3
 Imports:
-  rdstools,
-  rpgconn,
-  artutils,
-  artBrowse,
-  artFrames,
-  artGallery,
-  artUpload,
-  artpipelines,
-  bs4Dash,
-  shiny,
-  shinyjs,
-  waiter
+    rdstools,
+    rpgconn,
+    artutils,
+    artBrowse,
+    artFrames,
+    artGallery,
+    artUpload,
+    artpipelines,
+    bs4Dash,
+    shiny,
+    shinyjs,
+    waiter,
+    lubridate,
+    scales,
+    fs
 Remotes:
   github::JohnCoene/waiter,
   github::r-data-science/rdstools,
@@ -44,4 +47,5 @@ Depends:
 Suggests: 
   shinytest2,
   covr,
-  testthat (>= 3.0.0)
+  testthat (>= 3.0.0),
+  data.table
