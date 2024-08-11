@@ -1,6 +1,6 @@
 Package: artalytics
 Title: Artalytics App
-Version: 1.0.1
+Version: 0.3.0
 Authors@R: 
   person(
     given = "Bobby", 
