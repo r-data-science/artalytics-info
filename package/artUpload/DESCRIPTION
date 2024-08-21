@@ -1,6 +1,6 @@
 Package: artUpload
 Title: Art Upload Module
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
@@ -15,26 +15,28 @@ URL: https://github.com/r-data-science/artUpload
 BugReports: https://github.com/r-data-science/artUpload/issues
 Config/testthat/edition: 3
 Imports:
-  rdstools,
-  rpgconn,
-  artutils,
-  pixelsense,
-  artpipelines,
-  shinyNextUI,
-  shiny,
-  shinyalert,
-  shinyjs,
-  shinyvalidate,
-  shinyWidgets,
-  bs4Dash,
-  waiter,
-  collapse,
-  data.table,
-  jsonlite,
-  stringr,
-  future,
-  promises,
-  rlang
+    rdstools,
+    rpgconn,
+    artutils,
+    pixelsense,
+    artpipelines,
+    shinyNextUI,
+    shiny,
+    shinyalert,
+    shinyjs,
+    shinyvalidate,
+    shinyWidgets,
+    bs4Dash,
+    waiter,
+    collapse,
+    data.table,
+    jsonlite,
+    stringr,
+    future,
+    promises,
+    rlang,
+    httr,
+    lubridate
 Remotes:
   github::r-data-science/rdstools,
   github::r-data-science/rpgconn,
