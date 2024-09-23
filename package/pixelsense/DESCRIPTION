@@ -35,12 +35,13 @@ Imports:
   waiter
 Remotes:
   RinteRface/shinyNextUI,
-  github::r-data-science/artopenai,
-  github::r-data-science/rdstools,
-  github::r-data-science/rpgconn,
-  github::r-data-science/artutils
+  r-data-science/artopenai,
+  r-data-science/rdstools,
+  r-data-science/rpgconn,
+  r-data-science/artutils
 Suggests: 
   testthat (>= 3.0.0),
   knitr,
   shiny.react,
-  artopenai
+  artopenai,
+  pdftools
