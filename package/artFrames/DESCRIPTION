@@ -15,8 +15,6 @@ URL: https://github.com/r-data-science/artFrames
 BugReports: https://github.com/r-data-science/artFrames/issues
 Config/testthat/edition: 3
 Imports:
-  rdstools,
-  rpgconn,
   artutils,
   bs4Dash,
   data.table,
@@ -31,12 +29,10 @@ Imports:
   waiter
 Remotes:
   github::JohnCoene/waiter,
-  github::r-data-science/rdstools,
-  github::r-data-science/rpgconn,
   github::r-data-science/artopenai,
   github::r-data-science/artutils
 Depends: 
-  R (>= 4.0)
+  R (>= 4.1.0)
 Suggests:
   covr,
   artopenai,
