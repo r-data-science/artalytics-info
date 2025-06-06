@@ -1,6 +1,6 @@
 Package: pixelsense
 Title: Pixelsense
-Version: 0.3.1
+Version: 0.6.1
 Authors@R: 
   person(
     given = "Bobby", 
@@ -25,7 +25,6 @@ Imports:
     magick,
     OpenImageR,
     rdstools,
-    rpgconn,
     scales,
     shiny,
     artutils,
@@ -33,13 +32,16 @@ Imports:
     stringr,
     tinytex,
     waiter,
+    artcore,
     ssh
 Remotes:
   RinteRface/shinyNextUI,
   r-data-science/artopenai,
   r-data-science/rdstools,
-  r-data-science/rpgconn,
-  r-data-science/artutils
+  r-data-science/artutils,
+  r-data-science/artcore
+Depends:
+  R (>= 4.1.0)
 Suggests: 
   testthat (>= 3.0.0),
   knitr,
