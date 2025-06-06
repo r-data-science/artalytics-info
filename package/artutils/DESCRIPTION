@@ -1,6 +1,6 @@
 Package: artutils
 Title: Artalytics Toolkit
-Version: 0.3.2
+Version: 0.6.1
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
@@ -16,7 +16,6 @@ BugReports: https://github.com/r-data-science/artutils/issues
 Config/testthat/edition: 3
 Imports:
   rdstools,
-  rpgconn,
   artopenai,
   data.table,
   DBI,
@@ -32,14 +31,15 @@ Imports:
   tidyjson,
   uuid,
   waiter,
+  artcore,
   zip
 Remotes:
   JohnCoene/waiter,
   r-data-science/rdstools,
-  r-data-science/rpgconn,
-  r-data-science/artopenai
+  r-data-science/artopenai,
+  r-data-science/artcore
 Depends: 
-  R (>= 4.0)
+  R (>= 4.1.0)
 Suggests:
   covr,
   testthat (>= 3.0.0)
