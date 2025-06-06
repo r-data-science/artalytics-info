@@ -1,6 +1,6 @@
 Package: artGallery
 Title: Art Gallery Module
-Version: 0.2.9
+Version: 0.6.1
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
@@ -17,7 +17,6 @@ Config/testthat/edition: 3
 Imports:
   rdstools,
   artopensea,
-  rpgconn,
   artutils,
   shinyNextUI,
   bs4Dash,
@@ -35,13 +34,14 @@ Imports:
   waiter
 Remotes:
   github::r-data-science/rdstools,
-  github::r-data-science/rpgconn,
   github::r-data-science/artopensea,
   github::r-data-science/artutils,
   github::RinteRface/shinyNextUI,
-  github::JohnCoene/waiter
+  github::JohnCoene/waiter,
+  github::r-data-science/artcore
 Depends: 
-  R (>= 4.0)
+  R (>= 4.1.0)
 Suggests:
+  artcore,
   covr,
   testthat (>= 3.0.0)
