@@ -1,6 +1,6 @@
 Package: artbenchmark
 Title: Benchmark Artworks
-Version: 0.1.9
+Version: 0.6.1
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
@@ -26,6 +26,6 @@ Imports:
 Remotes:
   github::r-data-science/artutils
 Depends: 
-  R (>= 4.0)
+  R (>= 4.1.0)
 Suggests:
   covr
