@@ -1,6 +1,6 @@
 Package: artUpload
 Title: Art Upload Module
-Version: 0.3.2
+Version: 0.6.1
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
@@ -15,8 +15,6 @@ URL: https://github.com/r-data-science/artUpload
 BugReports: https://github.com/r-data-science/artUpload/issues
 Config/testthat/edition: 3
 Imports:
-    rdstools,
-    rpgconn,
     artutils,
     pixelsense,
     artpipelines,
@@ -35,18 +33,17 @@ Imports:
     future,
     promises,
     rlang,
-    httr,
+    artcore,
     lubridate
 Remotes:
-  github::r-data-science/rdstools,
-  github::r-data-science/rpgconn,
+  github::r-data-science/artcore,
   github::r-data-science/artutils,
   github::r-data-science/pixelsense,
   github::r-data-science/artpipelines,
   github::RinteRface/shinyNextUI,
   github::JohnCoene/waiter
 Depends: 
-  R (>= 4.0)
+  R (>= 4.1.0)
 Suggests:
   covr,
   testthat (>= 3.0.0)
