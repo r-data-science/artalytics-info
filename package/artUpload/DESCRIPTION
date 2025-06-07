@@ -34,7 +34,8 @@ Imports:
     promises,
     rlang,
     artcore,
-    lubridate
+    lubridate,
+    utils
 Remotes:
   github::r-data-science/artcore,
   github::r-data-science/artutils,
