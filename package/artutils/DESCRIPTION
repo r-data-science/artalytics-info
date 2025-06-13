@@ -1,6 +1,6 @@
 Package: artutils
 Title: Artalytics Toolkit
-Version: 0.6.6
+Version: 0.6.7
 Authors@R: 
     person(given = "Bobby",
            family = "Fatemi",
